@@ -19,6 +19,14 @@ This project demonstrates the use of micro frontends in a music app built using 
 
 ## Setup
 
+0. Set up the Last.fm API key:
+   - Create an account on [Last.fm](https://www.last.fm/api/account/create).
+   - Get your API key from [Last.fm API](https://www.last.fm/api/account/create).
+   - Create a `.env` file in the root directory and add your API key:
+     ```bash
+     VITE_LAST_FM_API_KEY=your_api_key_here
+     ```
+
 1. Clone the repository:
 
    ```bash
